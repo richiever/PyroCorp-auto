@@ -22,8 +22,11 @@
     font-family: 'barlow', sans-serif;
   }
 
+  h3 {font-size: 1.1em;}
+
   h2 {
     font-weight: bold;
+    font-size:1.3em;
   }
 
   .chat-container {
@@ -88,8 +91,8 @@
 <div class="chat-container">
   
   <div class="chat-content {showChat ? 'visible' : ''}">
-    <h2>Pyro Corporation Support</h2>
-    <h3>Now accelerated with AI</h3>
+    <h2>PYRO CORPORATION SUPPORT</h2>
+    <h3>NOW ACCELERATED WITH AI</h3>
     <input
       type="text"
       placeholder="Type your question"

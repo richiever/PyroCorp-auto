@@ -3,11 +3,12 @@
   </script>
   
   <style>
-	/* Add your styles here */
+	:root {
+    background-color: black;
+  }
   </style>
   
   <main>
-	<h1>PyroCorp Help</h1>
 	<FAQChat />
   </main>
   

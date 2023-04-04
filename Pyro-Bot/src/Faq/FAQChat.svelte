@@ -123,5 +123,5 @@
       <p>{selectedAnswer}</p>
     </div>
   </div>
-  <button class="toggle-button" on:click="{toggleChat}">{showChat ? 'x' : 'Help'}</button>
+  <button class="toggle-button" on:click="{toggleChat}">{showChat ? 'x' : '?'}</button>
 </div>

@@ -1,5 +1,5 @@
 <script>
-  import { faqContent } from "../faqContent.js";
+  import { faqContent } from "./faqContent.js";
   let inputQuestion = "";
   let selectedAnswer = "";
   let showChat = false;

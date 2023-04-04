@@ -42,9 +42,9 @@
     border-radius: 50%;
     color: white;
     cursor: pointer;
-    font-size: 18px;
-    height: 60px;
-    width: 60px;
+    font-size: 21px;
+    height: 70px;
+    width: 70px;
     margin-top: 0.5em;
     font-family: 'barlow', sans-serif;
   }

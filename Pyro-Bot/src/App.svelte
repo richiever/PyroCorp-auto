@@ -1,5 +1,5 @@
 <script>
-	import FAQChat from "./FAQChat.svelte";
+	import FAQChat from "./Faq/FAQChat.svelte";
   </script>
   
   <style>

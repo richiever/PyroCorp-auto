@@ -1,5 +1,5 @@
 <script>
-  import { faqContent } from "./faqContent.js";
+  import { faqContent } from "../faqContent.js";
   let inputQuestion = "";
   let selectedAnswer = "";
   let showChat = false;
@@ -8,7 +8,7 @@
     const foundFAQ = faqContent.find(faq =>
       faq.question.toLowerCase().includes(inputQuestion.toLowerCase())
     );
-    selectedAnswer = foundFAQ ? foundFAQ.answer : "No matching question found. Feel free to join our discord to talk to a human.";
+    selectedAnswer = foundFAQ ? foundFAQ.answer : "I don't know how to answer that question. If you would like, you can talk to a human at our discord server.";
   }
 
   function toggleChat() {
@@ -96,7 +96,8 @@
       bind:value="{inputQuestion}"
       on:keydown="{e => (e.key === 'Enter' ? searchAnswer() : null)}"
     />
-    <a on:click="{searchAnswer}"><svg width="227" height="70" viewBox="0 0 227 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a on:click="{searchAnswer}">
+      <svg width="227" height="70" viewBox="0 0 227 70" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_10_43)">
       <mask id="mask0_10_43" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="227" height="70">
       <path d="M227 0H0V70H227V0Z" fill="white" fill-opacity="0.3"/>

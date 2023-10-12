@@ -1,2 +1,4 @@
 # PyroCorp-auto
-a open source chatbot designed for the future pyrocorp.net site. You can probably just download this code and repurpose it for whatever you want, I don't really care.
+a open source chatbot that can obtain answers from similar questions, regardless of the wording. Has some styling in addition, done with raw CSS
+
+Made Using Svelte
